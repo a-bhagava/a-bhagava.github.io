@@ -54,11 +54,11 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
+          title: Anvita Bhagavathula
           subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
           imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
+          imageWidth: 200
+          imageHeight: 200
           buttons:
             - name: Papers
               url: papers/
