@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Anvita Bhagavathula
           subtitle: | 
-            Hi, I’m Anvi! I’m a second-year EECS PhD student at MIT, where I’m advised by <a href="https://priyadonti.com/" style="color:#1E90FF; text-decoration:underline;">Priya Donti</a>.
+            Hi, I’m Anvi! I’m a second-year EECS PhD student at MIT, where I’m advised by Priya Donti.
             My research focuses on alleviating the limitations of traditional scientific computing methods (e.g., differential equation simulations, iterative solvers) using physics-informed machine learning. My work specifically seeks to address challenges in renewable energy, climate, and power systems applications.
             Key themes that I explore through my research include: 
             1. Embedding governing equations, conservation laws, and domain-specific structures into ML models through soft constraints (loss functions), hard constraints (differentiable optimization), and tools such as operator and graph learning.
@@ -84,18 +84,14 @@ params:
           imageWidth: 188
           imageHeight: 190
           buttons:
-            - name: Papers
+            - name: Publications
               url: papers/
-            - name: Data
+            - name: Projects
               url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
+            - name: Teaching/Leadership
               url: archive/
+            - name: CV
+              url: courses/
           updates:
             - date: "Apr 25, 2025"
               text: '<i><a href="https://www.climatechange.ai/papers/iclr2025/67">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to the <i>Tackling Climate Change with AI</i> workshop at <i>ICLR 2025</i>.'
@@ -108,21 +104,16 @@ params:
 
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
           url: abhagava@mit.edu
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: linkedin
+          url: https://www.linkedin.com/in/anvita-bhagavathula/
+        - name: google scholar
+          url: https://scholar.google.com/citations?user=3zq31nwAAAAJ&hl=en
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://github.com/a-bhagava
         - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://x.com/anvita_b_
 
     assets:
         disableScrollBarStyle: true
