@@ -53,6 +53,18 @@
             {{- end }}
         </div>
         {{- end }}
+
+    <div class="post-content">
+    <h2>Latest Updates</h2>
+    <ul class="latest-news">
+        {{- with .updates }}
+        {{- range . }}
+        <li><strong>{{ .date }}:</strong> {{ .text | markdownify }}</li>
+        {{- end }}
+        {{- end }}
+    </ul>
+    </div>
+
     </div>
     {{- end}}
 </div>

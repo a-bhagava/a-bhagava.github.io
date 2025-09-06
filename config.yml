@@ -55,10 +55,34 @@ params:
     profileMode:
           enabled: true
           title: Anvita Bhagavathula
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "profile.jpeg"
-          imageWidth: 200
-          imageHeight: 200
+          subtitle: | 
+            Hi, I’m Anvi! I’m a second-year EECS PhD student at MIT, where I’m advised by <a href="https://priyadonti.com/" style="color:#1E90FF; text-decoration:underline;">Priya Donti</a>.
+            My research focuses on alleviating the limitations of traditional scientific computing methods (e.g., differential equation simulations, iterative solvers) using physics-informed machine learning. My work specifically seeks to address challenges in renewable energy, climate, and power systems applications.
+            Key themes that I explore through my research include: 
+            1. Embedding governing equations, conservation laws, and domain-specific structures into ML models through soft constraints (loss functions), hard constraints (differentiable optimization), and tools such as operator and graph learning.
+            2. Leveraging insights from traditional numerical solvers (e.g., iterative and spectral methods) to inform the design of hybrid physics-informed ML models.
+            3. Developing models that are accessible even in compute-constrained and low-data regimes (e.g., via self-supervised training).
+
+            My current projects include (1) improving the prediction of wind-turbine deficits by designing self-supervised operator learning methods to solve the Reynolds-Averaged Navier-Stokes equations and (2) improving ML-based power flow solvers using graph learning techniques.  <br><br>
+            
+            Previously, I completed my undergraduate degree at Brown University, where I majored in Physics and Applied Mathematics, followed by a Master’s in Electrical and Computer Engineering at Cornell Tech. During my time here, I engaged in a broad range of research experiences involving scientific computing.
+            At Brown, I studied superconductivity in 2D graphene systems in the
+            <a href="https://sites.brown.edu/li-lab/" target="_blank" rel="noopener" style="color: #3399ff;">Low-Dimensional Electronics Lab</a>
+            (advisors: Jia Li, Brenda Rubenstein) and developed physics-informed neural networks in
+            <a href="https://sites.brown.edu/crunch-group/" target="_blank" rel="noopener" style="color: #3399ff;">The Crunch Group</a>
+            (advisor: Somdatta Goswami).
+            I have also interned at 
+            <a href="https://www.microsoft.com/en-us/research/group/research-for-industry/" target="_blank" rel="noopener" style="color: #3399ff;">Microsoft Research</a>
+            (advisor: Ranveer Chandra), and startups such as <a href="https://www.aqemia.com/" target="_blank" rel="noopener" style="color: #3399ff;">Aqemia</a> (drug discovery) and
+            <a href="https://transcelestial.com/" target="_blank" rel="noopener" style="color: #3399ff;">Transcelestial</a> (wireless laser communications).<br><br>
+
+            Outside of work, I love singing, playing piano, composing music, and reading poetry. 
+            I’ve recently started exploring cooking and creating new recipes. 
+            I also enjoy film photography, and you can find some of my photos 
+            <a href="https://www.instagram.com/anvi_film/" target="_blank" rel="noopener" style="color: #3399ff;">here</a>!
+          imageUrl: "profile_pic.png"
+          imageWidth: 188
+          imageHeight: 190
           buttons:
             - name: Papers
               url: papers/
@@ -74,19 +98,22 @@ params:
               url: archive/
             - name: Blog
               url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          updates:
+            - date: "Apr 25, 2025"
+              text: '<i><a href="https://www.climatechange.ai/papers/iclr2025/67">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to the <i>Tackling Climate Change with AI</i> workshop at <i>ICLR 2025</i>.'
+
+            - date: "Sep 3, 2023"
+              text: "Started my PhD in the EECS department at MIT where I will be advised by Professor Priya Donti."
+
+            - date: "Jul 9, 2024"
+              text: 'Presented my paper <i><a href="https://hotcarbon.org/assets/2024/pdf/hotcarbon24-final146.pdf">Understanding the Implications of Uncertainty in Embodied Carbon Models for Sustainable Computing</a></i> at <i>HotCarbon’24</i>.'
+
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
+          url: abhagava@mit.edu
           url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
           url: https://github.com/pmichaillat
