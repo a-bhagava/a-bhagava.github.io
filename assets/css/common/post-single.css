@@ -32,6 +32,11 @@
     font-size: var(--textsize);
 }
 
+.post-content:not(:first-child) {
+    border-top: 1px solid #ccc;
+    padding-top: 20px; /* Add some space above the line */
+}
+
 .post-content h3,
 .post-content h4,
 .post-content h5,
@@ -45,7 +50,7 @@
 }
 
 .post-content h2 {
-    margin: 32px auto 24px;
+    margin: 0px auto 24px;
     font-size: 24px;
 }
 

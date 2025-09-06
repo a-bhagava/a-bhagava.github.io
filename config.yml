@@ -63,9 +63,9 @@ params:
             2. Leveraging insights from traditional numerical solvers (e.g., iterative and spectral methods) to inform the design of hybrid physics-informed ML models.
             3. Developing models that are accessible even in compute-constrained and low-data regimes (e.g., via self-supervised training).
 
-            My current projects include (1) improving the prediction of wind-turbine deficits by designing self-supervised operator learning methods to solve the Reynolds-Averaged Navier-Stokes equations and (2) improving ML-based power flow solvers using graph learning techniques.  <br><br>
-            
-            Previously, I completed my undergraduate degree at Brown University, where I majored in Physics and Applied Mathematics, followed by a Master’s in Electrical and Computer Engineering at Cornell Tech. During my time here, I engaged in a broad range of research experiences involving scientific computing.
+            My current projects include (1) improving the prediction of wind-turbine deficits by designing self-supervised operator learning methods to solve the Reynolds-Averaged Navier-Stokes equations and (2) improving ML-based power flow solvers using graph learning techniques.
+          aboutme: |
+            I completed my undergraduate degree at Brown University, where I majored in Physics and Applied Mathematics, followed by a Master’s in Electrical and Computer Engineering at Cornell Tech. During my time here, I engaged in a broad range of research experiences involving scientific computing.
             At Brown, I studied superconductivity in 2D graphene systems in the
             <a href="https://sites.brown.edu/li-lab/" target="_blank" rel="noopener" style="color: #3399ff;">Low-Dimensional Electronics Lab</a>
             (advisors: Jia Li, Brenda Rubenstein) and developed physics-informed neural networks in
@@ -74,7 +74,7 @@ params:
             I have also interned at 
             <a href="https://www.microsoft.com/en-us/research/group/research-for-industry/" target="_blank" rel="noopener" style="color: #3399ff;">Microsoft Research</a>
             (advisor: Ranveer Chandra), and startups such as <a href="https://www.aqemia.com/" target="_blank" rel="noopener" style="color: #3399ff;">Aqemia</a> (drug discovery) and
-            <a href="https://transcelestial.com/" target="_blank" rel="noopener" style="color: #3399ff;">Transcelestial</a> (wireless laser communications).<br><br>
+            <a href="https://transcelestial.com/" target="_blank" rel="noopener" style="color: #3399ff;">Transcelestial</a> (wireless laser communications).
 
             Outside of work, I love singing, playing piano, composing music, and reading poetry. 
             I’ve recently started exploring cooking and creating new recipes. 
@@ -96,8 +96,6 @@ params:
               url: tags/
             - name: Archive
               url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
           updates:
             - date: "Apr 25, 2025"
               text: '<i><a href="https://www.climatechange.ai/papers/iclr2025/67">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to the <i>Tackling Climate Change with AI</i> workshop at <i>ICLR 2025</i>.'
