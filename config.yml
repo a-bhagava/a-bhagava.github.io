@@ -22,7 +22,7 @@ menu:
           url: location/
           weight: 3
         - name: CV
-          url: CV/
+          url: /CV.pdf
           weight: 4
 
 params:
@@ -90,7 +90,7 @@ params:
             - name: Teaching/Leadership
               url: location/
             - name: CV
-              url: CV/
+              url: /CV.pdf
           updates:
             - date: "Sep 18, 2025"
               text: '(Link to be updated soon!) A revised version of <i><a href="https://www.climatechange.ai/papers/iclr2025/67">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to <i>NeurIPS 2025 (Datasets & Benchmarks Track)</i>.'
@@ -124,7 +124,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Anvita Bhagavathula"
-      icon: favicon.ico
+      icon: favicon-2025.ico
       iconHeight: 18
 
 markup:
