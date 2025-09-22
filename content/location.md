@@ -1,33 +1,32 @@
 ---
-title: "Location"
-date: 2024-05-08
+title: "Teaching and Leadership Experience"
+date: 2025-09-22
 hidemeta: true
-description: "Professor Dr von Igelfeld's mailing and office addresses at the Institute of Romance Philology."
+description: "Selected leadership, teaching, and service experiences."
+---
+
+#### Board Member: Graduate Women in Course 6 at MIT 
+*Jan 2025 – Present*  
+
+Helping organize community-building events for women/gender minorities in Electrical Engineering and Computer Science at MIT. 
 
 ---
 
----
+#### Teaching Assistant: Break Through Tech AI  
+*Aug 2023 – Jan 2024*  
 
-#### Mailing address
-
-Professor Dr von Igelfeld  
-Institute of Romance Philology  
-University of Regensburg  
-Regensburg, Germany
+Supported 20 students from underrepresented gender identities in STEM as they developed machine learning solutions to industry-issued challenges. Responsibilities included holding regular student meetings, providing debugging support, and evaluating coursework.
 
 ---
 
-#### Office address
+#### Lead Coordinator: Women in Science and Engineering (Physics)  
+*Jan 2021 – May 2023*  
 
-Room 133  
-Institute of Romance Philology  
-University of Regensburg
+Organized community-building initiatives such as group study sessions, lunches, and peer mentoring alongside two other coordinators. The goal was to foster a strong sense of belonging for women and other underrepresented gender identities in the Physics department.  
 
 ---
 
-#### Office location
+#### Member: Physics Departmental Diversity and Inclusion Committee  
+*Jan 2021 – May 2023*  
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10470.896334563153!2d12.085487114429176!3d48.99680799095555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479fc1126394f30f%3A0xb4c5000594ee5334!2sUniversity%20of%20Regensburg!5e0!3m2!1sen!2sus!4v1714871932562!5m2!1sen!2sus" 
-width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
+Worked with undergraduates, doctoral students, and faculty to address diversity and inclusion issues in the Physics department. Major contributions included designing a climate survey that gathered over 100 responses, providing actionable insights into departmental culture and equity.  
