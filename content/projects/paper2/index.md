@@ -14,7 +14,7 @@ cover:
 
 ##### Project Overview
 
-For my Honors Senior Thesis (available [here](/thesis.pdf)), I worked at the interface of experiment and theory by applying ab-initio quantum mechanical simulations to investigate the mechanism behind the superconducting phase in 2D graphene systems.
+For my Honors Senior Thesis (available [here](https://drive.google.com/file/d/1M8eeTZ28f-m6l5YwkckEhwD51x4aRwff/view?usp=sharing)), I worked at the interface of experiment and theory by applying ab-initio quantum mechanical simulations to investigate the mechanism behind the superconducting phase in 2D graphene systems.
 
 Supervised by Dr. Jia Li at Brown University's low-dimensional electronics lab, I built a nano-electronic device from graphene to measure its unique superconducting and magnetic properties at cryogenic temperatures. Building this device provided me experience with several innovative fabrication techniques like graphene exfoliation using scotch tape, nano-circuit design in DesignCAD Express, and electron beam lithography. I received an Undergraduate Teaching and Research Award to pursue this research.
 
