@@ -56,7 +56,7 @@ params:
             Hi, I’m Anvi! I’m a second-year EECS PhD student at MIT, where I’m advised by Priya Donti.
             My research focuses on alleviating the limitations/bottlenecks of traditional scientific computing methods (e.g., differential equation simulations, iterative solvers) using physics-informed machine learning. My work specifically seeks to address challenges in renewable energy, climate, and power systems applications.
           research: |
-            My current projects include (1) improving the prediction of wind-turbine deficits by designing constraint-based operator learning methods to solve the Reynolds-Averaged Navier-Stokes equations and (2) designing ML-based power flow solvers using graph learning techniques. Beyond these projects, I am also interested in drawing on my background in materials science to extend my research to applications such as energy materials and carbon capture.
+            My current projects include (1) improving the prediction of wind-turbine deficits by designing constraint-based operator learning methods to solve the Reynolds-Averaged Navier-Stokes equations and (2) designing ML-based power flow solvers using graph learning techniques. Beyond these projects, I am also interested in exploring problems related to weather forecasting and carbon capture.
             Key themes that I explore through my research include: 
             1. Incorporating physics and domain structure into ML models through soft and hard constraints, operator learning, and graph-based methods.
             2. Taking inspiration from numerical solvers (e.g., spectral and multigrid methods) to inform the design of these models.
