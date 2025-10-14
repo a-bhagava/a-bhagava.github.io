@@ -60,8 +60,8 @@ params:
             developing physics-informed machine learning models for solving partial differential equations (PDEs), with applications to accelerating computational fluid dynamics simulations of wind farms (2) designing ML-based power flow solvers using graph learning techniques. Beyond these projects, I am also interested in exploring problems related to weather forecasting and carbon capture.
             Key themes that I explore through my research include: 
             1. Incorporating physics and domain structure into ML models through soft and hard constraints, operator learning, and graph-based methods.
-            2. Taking inspiration from numerical solvers (e.g., spectral and multigrid methods) to inform the design of these models.
-            3. Developing models that are accessible even in compute-constrained and low-data regimes (e.g., via self-supervised training).
+            2. Taking inspiration from numerical solvers (e.g., spectral and wavelet methods) to inform the design of these models.
+            3. Developing models that are accessible even in compute-constrained and low-data regimes (e.g., via self-supervised training or multi-fidelity approaches).
 
           aboutme: |
             I completed my undergraduate degree at Brown University, where I majored in Physics and Applied Mathematics, followed by a Master’s in Electrical and Computer Engineering at Cornell Tech. As an undergrad/master's student, I engaged in a broad range of research experiences involving scientific computing.
