@@ -61,7 +61,7 @@ params:
             Key themes that I explore through my research include: 
             1. Incorporating physics and domain structure into ML models through soft and hard constraints, operator learning, and graph-based methods.
             2. Taking inspiration from numerical solvers (e.g., spectral and wavelet methods) to inform the design of these models.
-            3. Developing models that are accessible even in compute-constrained and low-data regimes (e.g., via self-supervised training or multi-fidelity approaches).
+            3. Developing models that are accessible even in compute-constrained and low-data regimes (e.g., via self-supervised training and multi-fidelity approaches).
 
           aboutme: |
             I completed my undergraduate degree at Brown University, where I majored in Physics and Applied Mathematics, followed by a Master’s in Electrical and Computer Engineering at Cornell Tech. As an undergrad/master's student, I engaged in a broad range of research experiences involving scientific computing.
@@ -99,7 +99,7 @@ params:
             - date: "Apr 25, 2025"
               text: '<i><a href="https://www.climatechange.ai/papers/iclr2025/67">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to the <i>Tackling Climate Change with AI</i> workshop at <i>ICLR 2025</i>.'
 
-            - date: "Sep 3, 2023"
+            - date: "Sep 3, 2024"
               text: "Started my PhD in the EECS department at MIT where I will be advised by Professor Priya Donti."
 
             - date: "Jul 9, 2024"
