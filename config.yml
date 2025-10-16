@@ -26,7 +26,7 @@ menu:
           weight: 4
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: 
     author: Moritz-Maria von Igelfeld
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
