@@ -27,7 +27,7 @@ menu:
 
 params:
     description: 
-    author: Moritz-Maria von Igelfeld
+    author: Anvita Bhagavathula
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -94,7 +94,7 @@ params:
               url: cv.pdf
           updates:
             - date: "Sep 18, 2025"
-              text: '(Link to be updated soon!) A revised version of <i><a href="https://www.climatechange.ai/papers/iclr2025/67">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to <i>NeurIPS 2025 (Datasets & Benchmarks Track)</i>.'
+              text: ' A revised version of <i><a href="https://arxiv.org/abs/2510.22048">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to <i>NeurIPS 2025 (Datasets & Benchmarks Track)</i>.'
 
             - date: "Apr 25, 2025"
               text: '<i><a href="https://www.climatechange.ai/papers/iclr2025/67">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to the <i>Tackling Climate Change with AI</i> workshop at <i>ICLR 2025</i>.'
