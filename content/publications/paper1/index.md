@@ -1,6 +1,6 @@
 ---
 title: "PF∆: : A Benchmark Dataset for Power Flow under Load, Generation, and Topology Variations" 
-date: 2025-10-24
+date: 2025-12-08
 tags: ["graph learning","power flow","benchmarking"]
 author: ["Ana K. Rivera","Anvita Bhagavathula", "Alvaro Carbonero", "Priya Donti"]
 description: " NeurIPS Datasets & Benchmarks Track, 2025 " 
@@ -26,6 +26,7 @@ Power flow (PF) calculations are the backbone of real-time grid operations, acro
 
 + [Paper](https://arxiv.org/abs/2510.22048)
 + [Summary Slides](https://neurips.cc/virtual/2025/loc/san-diego/poster/121747)
++ [Repo](https://github.com/MOSSLab-MIT/pfdelta)
 
 ---
 
