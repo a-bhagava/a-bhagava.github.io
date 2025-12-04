@@ -1,45 +1,46 @@
 ---
-title: "PF∆: A Benchmark Dataset for Power Flow With Load, Generator, & Topology Variations" 
-date: 2025-04-24
+title: "PF∆: : A Benchmark Dataset for Power Flow under Load, Generation, and Topology Variations" 
+date: 2025-10-24
 tags: ["graph learning","power flow","benchmarking"]
 author: ["Ana K. Rivera","Anvita Bhagavathula", "Alvaro Carbonero", "Priya Donti"]
-description: " Tackling Climate Change with Machine Learning Workshop, ICLR 2025 " 
-summary: " Workshop paper at the Tackling Climate Change with Machine Learning Workshop, ICLR 2025 " 
+description: " NeurIPS Datasets & Benchmarks Track, 2025 " 
+summary: " Conference paper at NeurIPS Datasets & Benchmarks Track, 2025" 
 
 cover:
     image: "paper1.png"
     alt: "Some Uses For Olive Oil"
     relative: true
 editPost:
-    URL: "https://www.climatechange.ai/papers/iclr2025/67"
-    Text: "Tackling Climate Change with Machine Learning Workshop, ICLR 2025"
+    URL: "https://arxiv.org/abs/2510.22048"
+    Text: "NeurIPS Datasets & Benchmarks Track, 2025"
 
 ---
 
 ##### Abstract
 
-Large-scale renewable energy integration and climate-induced extreme weather events increase uncertainty in power system operations, calling for tools that can accurately and efficiently simulate a wide range of scenarios and operating conditions. Machine learning approaches offer a potential speedup over traditional solvers, but their performance has not been systematically assessed on benchmarks that capture real-world variability. This paper introduces PF∆, a benchmark dataset designed to evaluate power flow methods under variations in load, generation, and topology. We evaluate traditional and graph neural network-based approaches, and demonstrate key areas for improvement in existing methods. All data and model implementations are available in the code repository and the data archive.
+Power flow (PF) calculations are the backbone of real-time grid operations, across workflows such as contingency analysis (where repeated PF evaluations assess grid security under outages) and topology optimization (which involves PF-based searches over combinatorially large action spaces). Running these calculations at operational timescales or across large evaluation spaces remains a major computational bottleneck. Additionally, growing uncertainty in power system operations from the integration of renewables and climate-induced extreme weather also calls for tools that can accurately and efficiently simulate a wide range of scenarios and operating conditions. Machine learning methods offer a potential speedup over traditional solvers, but their performance has not been systematically assessed on benchmarks that capture real-world variability. This paper introduces PFΔ, a benchmark dataset for power flow that captures diverse variations in load, generation, and topology. PFΔ contains 859,800 solved power flow instances spanning six different bus system sizes, capturing three types of contingency scenarios (N , N -1, and N -2), and including close-to-infeasible cases near steady-state voltage stability limits. We evaluate traditional solvers and GNN-based methods, highlighting key areas where existing approaches struggle, and identifying open problems for future research. Our dataset is available at this https URL and our code with data generation scripts and model implementations is at this https URL.
 
 ---
 
 ##### Download
 
-+ [Paper](https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2025/67/paper.pdf)
-+ [Summary Slides](https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2025/67/slides.pdf)
-+ [Poster](https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2025/67/poster.pdf)
++ [Paper](https://arxiv.org/abs/2510.22048)
++ [Summary Slides](https://neurips.cc/virtual/2025/loc/san-diego/poster/121747)
 
 ---
 
 ##### Citation
 
-Bhagavathula, A., Carbonero, A., Rivera, A., & Donti, P. (2025). PF∆: A Benchmark Dataset for Power Flow With Load, Generator, & Topology Variations. In ICLR 2025 Workshop on Tackling Climate Change with Machine Learning.
+Rivera, A. K., Bhagavathula, A., Carbonero, A., & Donti, P. (2025). PF $\Delta $: A Benchmark Dataset for Power Flow under Load, Generation, and Topology Variations. arXiv preprint arXiv:2510.22048.
 
 ```BibTeX
-@inproceedings{bhagavathula2025pf,
-  title={PF∆: A Benchmark Dataset for Power Flow With Load, Generator, & Topology Variations},
-  author={Bhagavathula, Anvita and Carbonero, Alvaro and Rivera, Ana and Donti, Priya},
-  booktitle={ICLR 2025 Workshop on Tackling Climate Change with Machine Learning},
-  url={https://www.climatechange.ai/papers/iclr2025/67},
-  year={2025}
+@misc{rivera2025pfdeltabenchmarkdatasetpower,
+      title={PF$\Delta$: A Benchmark Dataset for Power Flow under Load, Generation, and Topology Variations}, 
+      author={Ana K. Rivera and Anvita Bhagavathula and Alvaro Carbonero and Priya Donti},
+      year={2025},
+      eprint={2510.22048},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2510.22048}, 
 }
 ```
