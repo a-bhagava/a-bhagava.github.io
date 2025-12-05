@@ -1,6 +1,6 @@
 ---
 title: "PF∆: A Benchmark Dataset for Power Flow With Load, Generator, & Topology Variations" 
-date: 2025-04-24
+date: 2025-01-24
 tags: ["graph learning","power flow","benchmarking"]
 author: ["Ana K. Rivera","Anvita Bhagavathula", "Alvaro Carbonero", "Priya Donti"]
 description: " Tackling Climate Change with Machine Learning Workshop, ICLR 2025 " 

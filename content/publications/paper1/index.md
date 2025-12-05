@@ -1,6 +1,6 @@
 ---
 title: "PF∆: : A Benchmark Dataset for Power Flow under Load, Generation, and Topology Variations" 
-date: 2025-12-08
+date: 2025-12-04
 tags: ["graph learning","power flow","benchmarking"]
 author: ["Ana K. Rivera","Anvita Bhagavathula", "Alvaro Carbonero", "Priya Donti"]
 description: " NeurIPS Datasets & Benchmarks Track, 2025 " 
