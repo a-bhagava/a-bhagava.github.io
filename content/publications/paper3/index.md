@@ -6,7 +6,7 @@ author: ["Anvita Bhagavathula", "Leo Han", "Udit Gupta"]
 description: "Conference paper at HotCarbon'24" 
 summary: "Paper at HotCarbon'24 (Workshop on Sustainable Computer Systems)" 
 cover:
-    image: "paper2.png"
+    image: "paper3.png"
     alt: "Dimensions of a sausage dog"
     relative: true
 editPost:

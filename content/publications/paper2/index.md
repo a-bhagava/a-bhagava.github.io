@@ -7,7 +7,7 @@ description: " Tackling Climate Change with Machine Learning Workshop, ICLR 2025
 summary: " Workshop paper at the Tackling Climate Change with Machine Learning Workshop, ICLR 2025 " 
 
 cover:
-    image: "paper1.png"
+    image: "paper2.png"
     alt: "Some Uses For Olive Oil"
     relative: true
 editPost:
