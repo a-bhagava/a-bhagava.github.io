@@ -81,7 +81,7 @@ params:
             I also enjoy film photography, and you can find some of my photos 
             <a href="https://www.instagram.com/anvi_film/" target="_blank" rel="noopener" style="color: #3399ff;">here</a>!
           imageUrl: "profile_pic.png"
-          imageWidth: 190
+          imageWidth: 192
           imageHeight: 190
           buttons:
             - name: Publications
