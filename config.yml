@@ -53,16 +53,20 @@ params:
           enabled: true
           title: Anvita Bhagavathula
           subtitle: | 
-            Hi, I’m Anvi! I’m a second-year EECS PhD student at MIT, where I’m advised by Priya Donti.
-            My research focuses on alleviating the limitations/bottlenecks of traditional scientific computing methods (e.g., differential equation simulations, iterative solvers) using physics-informed machine learning. My work specifically seeks to address challenges in renewable energy, climate, and power systems applications.
+            Hi, I’m Anvi! I’m a third-year EECS PhD student at MIT, where I’m advised by Priya Donti.
+            I build machine learning surrogates for physical systems that are designed with deployment and downstream decisions in mind, mainly for climate, renewable energy, and power systems applications. My goal is to make these surrogates reliable enough to stand in for expensive simulations and traditional solvers in practice.
           research: |
-            My current projects include (1) 
-            developing physics-informed machine learning models for solving partial differential equations (PDEs), with applications to accelerating computational fluid dynamics simulations of wind farms (2) designing ML-based power flow solvers using graph learning techniques. Beyond these projects, I am also interested in exploring problems related to weather forecasting and carbon capture.
-            Key themes that I explore through my research include: 
-            1. Incorporating physics and domain structure into ML models through soft and hard constraints, operator learning, and graph-based methods.
-            2. Taking inspiration from numerical solvers (e.g., spectral and wavelet methods) to inform the design of these models.
-            3. Developing models that are accessible even in compute-constrained and low-data regimes (e.g., via self-supervised training and multi-fidelity approaches).
+            Surrogates have made a lot of progress as replacements for expensive simulation, but three recurring barriers keep them from being used in practice:
+            1. **Generalization:** surrogates should perform reliably across operating conditions, geometries, and geographic regions without costly retraining for each new setting. 
+            2. **Physical consistency by design:** traditional numerical solvers satisfy governing equations up to a stated tolerance, whereas surrogates do not offer the same guarantees.
+            3. **Decision alignment:** surrogates are usually trained to minimize field-level error (e.g., RMSE), which doesn't necessarily lead to good downstream operational decisions.
 
+            I seek to address these challenges through:
+            1. **Benchmarks** that systematically measure out-of-distribution and downstream-task performance.
+            2. **Inductive biases in models**, such as constraint-enforcing losses and architectures inspired by numerical solvers (e.g., spectral methods) that capture multiscale structure.
+            3. **Novel training strategies** that use subproblem decomposition, self-consistency, or solver gradients in the training loop, to enable models to generalize even in low-data and label-free settings.
+
+            My current projects include physics-informed neural operators that generalize to unseen length scales, with applications to accelerating computational fluid dynamics simulations of wind farms, and graph-based power flow solvers that transfer across grid topologies and sizes.
           aboutme: |
             I completed my undergraduate degree at Brown University, where I majored in Physics and Applied Mathematics, followed by a Master’s in Electrical and Computer Engineering at Cornell Tech. As an undergrad/master's student, I engaged in a broad range of research experiences involving scientific computing.
             At Brown, I studied superconductivity in 2D graphene systems using experimental methods and Density Functional Theory (DFT) simulations in the
@@ -81,7 +85,7 @@ params:
             I also enjoy film photography, and you can find some of my photos 
             <a href="https://www.instagram.com/anvi_film/" target="_blank" rel="noopener" style="color: #3399ff;">here</a>!
           imageUrl: "profile_pic.png"
-          imageWidth: 192
+          imageWidth: 185
           imageHeight: 190
           buttons:
             - name: Publications
@@ -93,6 +97,9 @@ params:
             - name: CV
               url: cv.pdf
           updates:
+            - date: "[Mon DD], 2026"
+              text: '<i>Toward Out-of-Distribution Generalization in Neural AC Power Flow</i> was accepted as an <b>oral</b> at the <i>AI Foundations for Power Grids</i> workshop at <i>NeurIPS 2026</i>.'
+
             - date: "Sep 18, 2025"
               text: ' A revised version of <i><a href="https://arxiv.org/abs/2510.22048">PF∆: A Benchmark Dataset for Power Flow with Load, Generator, & Topology Variations</a></i> was accepted to <i>NeurIPS 2025 (Datasets & Benchmarks Track)</i>.'
 
