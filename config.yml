@@ -63,7 +63,7 @@ params:
 
             I seek to address these challenges through (1) systematic benchmarking of out-of-distribution and downstream-task performance (2) inductive biases in models, such as constraint-enforcing losses and architectures inspired by numerical solvers (e.g., spectral methods) that capture multiscale structure and (3) novel training strategies that use subproblem decomposition, self-consistency, or differentiable solver gradients in the training loop, to enable models to generalize even in low-data and label-free settings.
 
-            My current projects include physics-informed neural operators that generalize to unseen length scales, with applications to accelerating computational fluid dynamics simulations of wind farms, and graph-based power flow solvers that transfer across grid topologies and sizes.
+            My current projects include physics-informed neural operators that generalize to unseen length scales, with applications to accelerating computational fluid dynamics simulations, and graph-based power flow solvers that transfer across grid topologies and sizes.
           aboutme: |
             I completed my undergraduate degree at Brown University, where I majored in Physics and Applied Mathematics, followed by a Master’s in Electrical and Computer Engineering at Cornell Tech. As an undergrad/master's student, I engaged in a broad range of research experiences involving scientific computing.
             At Brown, I studied superconductivity in 2D graphene systems using experimental methods and Density Functional Theory (DFT) simulations in the
@@ -82,7 +82,7 @@ params:
             I also enjoy film photography, and you can find some of my photos 
             <a href="https://www.instagram.com/anvi_film/" target="_blank" rel="noopener" style="color: #3399ff;">here</a>!
           imageUrl: "profile_pic.png"
-          imageWidth: 200
+          imageWidth: 205
           imageHeight: 190
           buttons:
             - name: Publications
