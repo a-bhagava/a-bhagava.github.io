@@ -83,7 +83,7 @@ params:
             <a href="https://www.instagram.com/anvi_film/" target="_blank" rel="noopener" style="color: #3399ff;">here</a>!
           imageUrl: "profile_pic.png"
           imageWidth: 205
-          imageHeight: 190
+          imageHeight: 185
           buttons:
             - name: Publications
               url: publications/
