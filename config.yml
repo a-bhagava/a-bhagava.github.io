@@ -61,10 +61,7 @@ params:
             2. **Physical consistency by design:** traditional numerical solvers satisfy governing equations up to a stated tolerance, whereas surrogates do not offer the same guarantees.
             3. **Decision alignment:** surrogates are usually trained to minimize field-level error (e.g., RMSE), which doesn't necessarily lead to good downstream operational decisions.
 
-            I seek to address these challenges through:
-            1. **Benchmarks** that systematically measure out-of-distribution and downstream-task performance.
-            2. **Inductive biases in models**, such as constraint-enforcing losses and architectures inspired by numerical solvers (e.g., spectral methods) that capture multiscale structure.
-            3. **Novel training strategies** that use subproblem decomposition, self-consistency, or solver gradients in the training loop, to enable models to generalize even in low-data and label-free settings.
+            I seek to address these challenges through (1) systematic benchmarking of out-of-distribution and downstream-task performance (2) developing inductive biases in models, such as constraint-enforcing losses and architectures inspired by numerical solvers (e.g., spectral methods) that capture multiscale structure and (3) novel training strategies that use subproblem decomposition, self-consistency, or solver gradients in the training loop, to enable models to generalize even in low-data and label-free settings.
 
             My current projects include physics-informed neural operators that generalize to unseen length scales, with applications to accelerating computational fluid dynamics simulations of wind farms, and graph-based power flow solvers that transfer across grid topologies and sizes.
           aboutme: |
@@ -85,7 +82,7 @@ params:
             I also enjoy film photography, and you can find some of my photos 
             <a href="https://www.instagram.com/anvi_film/" target="_blank" rel="noopener" style="color: #3399ff;">here</a>!
           imageUrl: "profile_pic.png"
-          imageWidth: 185
+          imageWidth: 175
           imageHeight: 190
           buttons:
             - name: Publications
@@ -97,7 +94,7 @@ params:
             - name: CV
               url: cv.pdf
           updates:
-            - date: "[Mon DD], 2026"
+            - date: "Oct 1, 2026"
               text: '<i>Toward Out-of-Distribution Generalization in Neural AC Power Flow</i> was accepted as an <b>oral</b> at the <i>AI Foundations for Power Grids</i> workshop at <i>NeurIPS 2026</i>.'
 
             - date: "Sep 18, 2025"
